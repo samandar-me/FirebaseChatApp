@@ -33,7 +33,7 @@ class LoginActivity : AppCompatActivity() {
             if (email.isNotEmpty() && password.isNotEmpty()) {
                 login(email, password)
             } else {
-                toast("Please enter anything!")
+                toast(getString(R.string.pls))
             }
         }
     }
